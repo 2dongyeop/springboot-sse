@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springboot-sse
+
+sse:
+  timeout:
+    default: 3600000 # 1 hour.
+
+logging:
+  level:
+    io.dongvelop: DEBUG
